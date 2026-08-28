@@ -2,13 +2,30 @@
 
 A Copilot agent skill for recipient-aware email drafting and review. It adapts tone, structure, technical detail, action clarity, ownership, deadlines, dependencies, and risk framing while preserving the sender's substantive meaning and voice.
 
-# How to Install in Your MS Copilot Studio
+-------
+# 🔧 Installing this Skill Agent in Copilot Studio
 
-- xxx
-- xx
-- xxx
+1. Download the `copilot-agent.json` file from this repository.
+2. Open your Copilot Studio: https://copilot.microsoft.com/studio
+3. Create a NEW Copilot.
+4. In the left sidebar, open **Plugins / Skills**.
+5. Click **Import Skill** or **Add Custom Skill**.
+6. Upload the `copilot-agent.json` file.
+7. Enable the skill once it appears in your Copilot.
+8. Use it by prompting your Copilot with:
+   - Polish this email for the recipient.
+   - Improve the tone of this email.
+   - Rewrite this email for my audience.
+   - Adapt this email for the recipient.
+   - Make this email appropriate for this person.
+   - Help me draft an email for this person.
+   - Review this email before I send it.
+   - Make this email clearer and more professional.
+   - Adjust this email's tone.
+   - Reframe this email for a different audience.
 
----
+-------
+
 name: email-tone-action-coach
 description: Recipient-aware coaching for adapting, polishing, reviewing, or reframing email drafts. Use when a user asks to improve an email for a specific audience, adjust tone, make the action clearer, or review wording before sending. Tailors formality, directness, technical detail, compliance sensitivity, structure, ownership, deadlines, dependencies, and next steps while preserving the sender's meaning and voice.
 ---
